@@ -1,0 +1,28 @@
+{
+  "name": "coder-s-calendar",
+  "version": "1.0.0",
+  "description": "Api for reading spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HemangNakarani/Coders-Calendar-Api.git"
+  },
+  "author": "Hemang Nakarani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HemangNakarani/Coders-Calendar-Api/issues"
+  },
+  "homepage": "https://github.com/HemangNakarani/Coders-Calendar-Api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.0.13",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}
